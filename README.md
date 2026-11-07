@@ -11,7 +11,9 @@ generated automatically from the robot's camera.
 ## Setup (laptop)
 
 ```
-pip install rosbags numpy matplotlib
+python -m venv .venv
+.venv\Scripts\Activate.ps1        # Windows PowerShell
+pip install -r requirements.txt
 python scripts/load_scan.py path/to/static_01.bag
 ```
 
