@@ -1,0 +1,5 @@
+# Recordings are large; keep them out of git
+*.bag
+data/
+__pycache__/
+*.pyc
