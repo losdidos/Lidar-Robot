@@ -7,6 +7,7 @@ generated automatically from the robot's camera.
 ## Layout
 
 - `scripts/load_scan.py`: load a rosbag with `/scan` and plot one scan from above.
+- `scripts/noise_floor.py`: exercise, measure how much each beam wobbles in a still recording.
 
 ## Setup (laptop)
 
